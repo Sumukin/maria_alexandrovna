@@ -1,0 +1,65 @@
+body {
+    margin: 0; /* Убираем отступы по умолчанию */
+    padding: 0; /* Убираем паддинги по умолчанию */
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Cascadia Code lite', monospace;
+}
+
+header {
+    background-size: cover;
+    background-position: center center;
+    background-image: url("../images/background.png");
+    
+    height: 30%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+img {
+    max-width: 75%; /* Адаптивное изображение */
+    height: auto; /* Сохранение пропорций изображения */
+}
+
+p {
+    text-align: left;
+    max-width: 70%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2vw;
+    text-decoration: normal;
+    vertical-align: baseline;
+}
+
+.container {
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    align-items: flex-start; /* Начало текста с верхней части изображения */
+}
+
+.image {
+    margin-right: -20px; /* Отступ между изображением и текстом */
+}
+
+.teacher_photo {
+    display: block;
+    width: 70%; /* Установка фиксированной ширины для фотографии */
+    height: auto; /* Сохранение пропорций изображения */
+}
+
+/* Вы можете также добавить стили для text, если нужно */
+.text {
+    flex-grow: 1; /* Позволяет тексту занимать оставшееся пространство */
+}
