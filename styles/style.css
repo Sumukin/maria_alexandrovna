@@ -11,6 +11,14 @@ h1 {
     font-family: 'Cascadia Code lite', monospace;
 }
 
+h3 {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 5px 15px black;;
+    font-family: 'Cascadia Code lite', monospace;
+}
+
+
 header {
     background-size: cover;
     background-position: center center;
@@ -113,7 +121,7 @@ p {
     box-shadow: 0px 0px 10px black;
     border-radius: 7.5px;
     float: left;
-    margin: 3%;
+    margin: 1%;
     padding-left: 2%;
     color: rgb(3, 3, 3);
     background-color: wheat;
